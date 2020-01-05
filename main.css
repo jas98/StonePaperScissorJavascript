@@ -1,0 +1,30 @@
+body {
+  background-color: rgb(241, 237, 237);
+}
+
+#images img {
+  padding: 100px;
+}
+
+#big-container {
+  margin: 100px;
+
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+img:hover {
+  box-shadow: 0px 10px 50px rgb(23, 112, 212);
+}
+#small-container {
+  text-align: center;
+  font-family: "Courier New", Courier, "Lucida Sans Typewriter",
+    "Lucida Typewriter", monospace;
+  font-size: 54px;
+  padding-top: 50px;
+  font-style: normal;
+  font-variant: normal;
+  font-weight: 700;
+  line-height: 26.4px;
+}
